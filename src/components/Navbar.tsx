@@ -15,6 +15,7 @@ export default function Navbar({ onBookClick }: NavbarProps) {
     { id: "home", label: "Home" },
     { id: "services", label: "Services" },
     { id: "why-choose-us", label: "Why Choose Us" },
+    { id: "faq", label: "FAQ" },
     { id: "testimonials", label: "Testimonials" },
     { id: "contact", label: "Contact Us" },
   ];

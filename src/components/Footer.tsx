@@ -52,6 +52,7 @@ export default function Footer() {
               { label: "Home", id: "home" },
               { label: "Services", id: "services" },
               { label: "Why Choose Us", id: "why-choose-us" },
+              { label: "FAQ", id: "faq" },
               { label: "Testimonials", id: "testimonials" },
               { label: "Contact Us", id: "contact" }
             ].map((section) => (

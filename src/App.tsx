@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import WhyChooseUs from "./components/WhyChooseUs";
+import FAQ from "./components/FAQ";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -51,6 +52,9 @@ export default function App() {
 
           {/* Section 2.5: Why Choose Us & Promotions */}
           <WhyChooseUs onApplyClick={handleBookClick} />
+
+          {/* Section 2.8: FAQ Section */}
+          <FAQ />
 
           {/* Section 3: Testimonials */}
           <Testimonials />
