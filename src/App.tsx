@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import KeyAchievements from "./components/KeyAchievements";
 import Services from "./components/Services";
 import WhyChooseUs from "./components/WhyChooseUs";
 import FAQ from "./components/FAQ";
@@ -46,6 +47,9 @@ export default function App() {
         <main>
           {/* Section 1: Home (Hero) */}
           <Hero onBookClick={handleBookClick} />
+
+          {/* Key Achievements Grid (Social Proof) */}
+          <KeyAchievements />
 
           {/* Section 2: Services */}
           <Services onSelectService={handleSelectService} />

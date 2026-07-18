@@ -13,6 +13,7 @@ export default function Navbar({ onBookClick }: NavbarProps) {
 
   const navItems = [
     { id: "home", label: "Home" },
+    { id: "key-achievements", label: "Achievements" },
     { id: "services", label: "Services" },
     { id: "why-choose-us", label: "Why Choose Us" },
     { id: "faq", label: "FAQ" },
