@@ -19,10 +19,3 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
-
-- task: AzureWebApp@1
-  inputs:
-    azureSubscription: 'Your-Service-Connection'
-    appType: 'webAppLinux'
-    appName: 'navigators-webapp'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
